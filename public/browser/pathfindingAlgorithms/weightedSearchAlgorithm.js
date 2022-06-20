@@ -224,9 +224,7 @@ function weightedManhattanDistance(nodeOne, nodeTwo, nodes) {
       let currentNode = nodes[currentId];
       additionalyChange += currentNode.weight;
     }
-// 
-
-// 
+// all of them
     let otherAdditionalxChange = 0,
         otherAdditionalyChange = 0;
     for (let currenty = nodeOneCoordinates[1]; currenty >= nodeTwoCoordinates[1]; currenty--) {
